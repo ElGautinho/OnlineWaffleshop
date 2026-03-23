@@ -133,7 +133,7 @@ label .close_btn {
 /* Hero Section */
 .hero_section {
     min-height: 100vh;
-    background: var(--primary-color);
+    background: var(--dark-color);
 }
 
 .hero_container {
@@ -143,12 +143,16 @@ label .close_btn {
     align-items: center;
     padding-top: 85px;
     min-height: calc(100vh - 85px);
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.hero_container .text_section {
+    text-align: center;
 }
 
 .hero_container .text_section h2 {
     font-size: 40px;
-    color: var(--secondary-color);
+    color: var(--white-color);
 }
 
 .hero_container .text_section h3 {
@@ -169,6 +173,7 @@ label .close_btn {
 .hero_container .hero_section_button {
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 .hero_container .hero_section_button .button {
@@ -177,8 +182,8 @@ label .close_btn {
     outline: none;
     cursor: pointer;
     border-radius: 50px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
+    background: var(--primary-color);
+    color: var(--light-gray-color);
     font-size: 18px;
     font-weight: 600;
     transition: all 0.4s ease;
@@ -198,8 +203,8 @@ label .close_btn {
 
 .hero_container .hero_section_button .button:last-child:hover {
     color: var(--primary-color);
-    background: var(--secondary-color);
-    border-color: var(--secondary-color);
+    background: var(--light-gray-color);
+    border-color: var(--primary-color);
 }
 
 .hero_container .image_section {
